@@ -1,0 +1,36 @@
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cover {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.logo-bar {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(47, 0, 255, 0.336);
+    top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-inputs-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
