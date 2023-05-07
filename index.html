@@ -1,81 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign-Up Form</title>
-    
-    <script src="script.js" defer></script>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div class="content">
-        <div class="cover">
-            <div class="background">
-    
-            </div>
-            <div class="logo-bar">
-            LOGO
-            </div>
-        </div>
-        <div class="interactive-content">
-            <div class="description">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
-                <p>You <em>know</em> you want to.</p>
-            </div>
-            <form action="" method="post" id="form">
-                <h1>Let's do this!</h1>
-                
-                <div class="form-inputs-wrapper">
-                    <div class="form-input">
-                        <label for="fname">FIRST NAME</label>
-                        <input type="text" name="first_name" id="fname" placeholder="Your first name">
-                        <small></small>
-                    </div>
-                    
-                    <div class="form-input">
-                        <label for="lname">LAST NAME</label>
-                        <input type="text" name="last_name" id="lname" placeholder="Your last name">
-                        <small></small>
-                    </div>
-                    
-                    <div class="form-input">
-                        <label for="email">EMAIL</label>
-                        <input type="email" name="email" id="email" placeholder="your@mail.com">
-                        <small></small>
-                    </div>
 
-                    <div class="form-input">
-                        <label for="tel">PHONE NUMBER</label>
-                        <input type="tel" name="phone_number" id="tel" placeholder="+(48) 123 456 789">
-                        <small></small>
-                    </div>
-                    
-                    <div class="form-input">
-                        <label for="pwd">PASSWORD</label>
-                        <input type="password" name="password" id="pwd" placeholder="Create password">
-                        <small></small>
-                    </div>
-                    
-                    <div class="form-input">
-                        <label for="confirmPwd">CONFIRM PASSWORD</label>
-                        <input type="password" name="confirm_password" id="confirmPwd" placeholder="Repeat password">
-                        <small></small>
-                    </div>
-                </div>
-                <button id="submitButton" type="submit">Create Account</button>
-            </form>
-            <div class="log-in">
-                <p>Already have an account? <a href="">Log in</a></p>
-            </div>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="content">
+      <div class="cover">
+        <div class="background"></div>
+        <div class="logo-bar">LOGO</div>
+      </div>
+      <div class="interactive-content">
+        <div class="description">
+          <p>
+            This is not a real online service! You know you need something like
+            this in your life to help you realize your deepest dreams. Sign up
+            <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p>
         </div>
+        <form action="" method="post" id="form">
+          <h1>Let's do this!</h1>
+
+          <div class="form-inputs-wrapper">
+            <div class="form-input">
+              <label for="fname">FIRST NAME</label>
+              <input
+                type="text"
+                name="first_name"
+                id="fname"
+                placeholder="Your first name"
+              />
+              <small></small>
+            </div>
+
+            <div class="form-input">
+              <label for="lname">LAST NAME</label>
+              <input
+                type="text"
+                name="last_name"
+                id="lname"
+                placeholder="Your last name"
+              />
+              <small></small>
+            </div>
+
+            <div class="form-input">
+              <label for="email">EMAIL</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="your@mail.com"
+              />
+              <small></small>
+            </div>
+
+            <div class="form-input">
+              <label for="tel">PHONE NUMBER</label>
+              <input
+                type="tel"
+                name="phone_number"
+                id="tel"
+                placeholder="+(48) 123 456 789"
+              />
+              <small></small>
+            </div>
+
+            <div class="form-input">
+              <label for="pwd">PASSWORD</label>
+              <input
+                type="password"
+                name="password"
+                id="pwd"
+                placeholder="Create password"
+              />
+              <small></small>
+            </div>
+
+            <div class="form-input">
+              <label for="confirmPwd">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confirm_password"
+                id="confirmPwd"
+                placeholder="Repeat password"
+              />
+              <small></small>
+            </div>
+          </div>
+          <button id="submitButton" type="submit">Create Account</button>
+        </form>
+        <div class="log-in">
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+      </div>
     </div>
     <div class="account-created-screen">
-        <div class="account-created-message-wrapper">
-            <div class="account-created-message">Account Created</div>
-        </div>
+      <div class="account-created-message-wrapper">
+        <div class="account-created-message">Account Created</div>
+      </div>
     </div>
-</body>
+  </body>
 </html>
